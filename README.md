@@ -26,4 +26,17 @@ Dentro de Android Studio:
         <img src="/img/1.png" width="300">
     </center>
 </div>
-<br><br>
+## Captura 2
+
+<div align="center">
+    <center>
+        <img src="/img/2.png" width="300">
+    </center>
+</div>
+## Captura 3
+
+<div align="center">
+    <center>
+        <img src="/img/3.png" width="300">
+    </center>
+</div>
