@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mayck.learnenglish.ESCUELA"
+    android:background="@drawable/fondo8">
+
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="a4"
+        android:text="Cual es tu direccion de Correo Electronico"
+        android:textStyle="bold"
+        android:layout_above="@+id/button9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="9dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:onClick="a1"
+        android:text="Que Estudias"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_above="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="7dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yo Tengo Clases Hoy"
+        android:onClick="a3"
+        android:hint="#ffff"
+        android:textStyle="bold"
+        android:layout_above="@+id/button15"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yo Estudio"
+        android:onClick="a2"
+        android:textStyle="bold"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_alignBaseline="@+id/button11"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignRight="@+id/button15"
+        android:layout_alignEnd="@+id/button15" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi Correo Electronico es"
+        android:onClick="a5"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/escuela"
+        android:layout_marginTop="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9" />
+
+</RelativeLayout>

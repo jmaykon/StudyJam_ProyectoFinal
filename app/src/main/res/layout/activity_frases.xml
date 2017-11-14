@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo4"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true"
+    tools:context="com.example.mayck.learnenglish.frases">
+
+    <Button
+        android:id="@+id/a10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Por Favor"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:onClick="a10"
+        tools:layout_editor_absoluteY="358dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_below="@+id/a8"
+        android:layout_alignLeft="@+id/a2"
+        android:layout_alignStart="@+id/a2" />
+
+    <Button
+        android:id="@+id/a7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No me Gusta eso"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        android:onClick="a7"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="358dp"
+        android:layout_below="@+id/a5"
+        android:layout_toRightOf="@+id/a1"
+        android:layout_toEndOf="@+id/a1" />
+
+    <Button
+        android:id="@+id/a5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿que Hora es?"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        android:onClick="a5"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="358dp"
+        android:layout_below="@+id/a4"
+        android:layout_alignLeft="@+id/a1"
+        android:layout_alignStart="@+id/a1" />
+
+    <Button
+        android:id="@+id/a9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lO SIENTO"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        android:onClick="a9"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="358dp"
+        android:layout_alignBaseline="@+id/a8"
+        android:layout_alignBottom="@+id/a8"
+        android:layout_alignRight="@+id/a3"
+        android:layout_alignEnd="@+id/a3" />
+
+    <Button
+        android:id="@+id/a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TENGO SED"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        android:onClick="a6"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="358dp"
+        android:layout_below="@+id/a4"
+        android:layout_toRightOf="@+id/a5"
+        android:layout_toEndOf="@+id/a5"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp" />
+
+    <Button
+        android:id="@+id/a8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disculpe"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:onClick="a8"
+        tools:layout_editor_absoluteY="358dp"
+        android:layout_below="@+id/a6"
+        android:layout_alignRight="@+id/a5"
+        android:layout_alignEnd="@+id/a5"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="46dp" />
+
+    <Button
+        android:id="@+id/a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Puede ayudarme?"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        android:onClick="a4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="358dp"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/a1"
+        android:layout_alignRight="@+id/a7"
+        android:layout_alignEnd="@+id/a7" />
+
+    <Button
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Si"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        android:onClick="a1"
+        android:textStyle="normal|italic|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="358dp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <Button
+        android:id="@+id/a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gracias"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        android:onClick="a2"
+        android:textStyle="normal|italic|bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="358dp"
+        android:layout_alignBaseline="@+id/a1"
+        android:layout_alignBottom="@+id/a1"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:gravity="center"
+    android:id="@+id/linearLayout3"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="31dp">
+
+    <ImageView
+        android:id="@+id/frases1"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/fras"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="27dp" />
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:onClick="a3"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        android:textStyle="normal|italic|bold"
+        tools:layout_editor_absoluteY="358dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_alignBaseline="@+id/a2"
+        android:layout_alignBottom="@+id/a2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+</RelativeLayout>
